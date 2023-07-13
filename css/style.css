@@ -512,26 +512,11 @@ padding: 24px 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-container:hover,
-.modal-container:focus{
-  background-color: #404bbf;
-    border: none;
-    fill: #ffffff;
-}
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-
-.is-hidden:hover,
-.is-hidden:focus {
-  background-color: #404bbf;
-    border: none;
-    fill: #ffffff;
-  }
-
 
 .modal-window {
   position: absolute;
@@ -546,13 +531,6 @@ padding: 24px 0;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-window:hover,
-.modal-window:focus{
-  background-color: #404bbf;
-    border: none;
-    fill: #ffffff;
 }
 
 .modal-button {
@@ -576,20 +554,11 @@ padding: 24px 0;
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
 .modal-window-icon{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-window-icon:hover,
-.modal-window-icon:focus {
-    background-color: #404bbf;
-      border: none;
-      fill: #ffffff;
-}
-
 
 
 /* ------------PORTFOLIO------------ */

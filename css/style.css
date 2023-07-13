@@ -176,7 +176,7 @@ padding: 24px 0;
     margin: 0 auto 48px;
 }
 
-.hero-btn {
+.data-modal-open {
   font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -191,11 +191,11 @@ padding: 24px 0;
     border: none;
     border-radius: 4px;
     margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.data-modal-open,
+.data-modal-open {
   background-color: #404BBF;
 }
 
